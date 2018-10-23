@@ -1,0 +1,205 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("http://wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg");
+}
+/* header info  */
+.nav{
+    float: right;
+    margin:2em 1em 1em 1em;
+    padding: 0px 1em 0px 0px;
+}
+.navSpace{
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    border-color: #777777;
+}
+a{
+    color: #777777;
+    text-decoration: none; 
+}
+
+header{
+    width: 100%;
+    background: #ffffff;
+    height: 5em;
+    box-shadow: 10px 10px 5px grey;
+}
+.navContainer{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    height: 5em;
+}
+.headerName{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 225px;
+    height: 5.3em;
+    padding: auto;
+    float: left;
+}
+/* header End */
+/* About Me Start */
+.aboutMe{
+    width: 960px;
+    background: white;
+    margin: auto;
+    margin-top: 5em;
+    height: 40em;
+    border-radius: 2%;
+    
+}
+.aboutMeInfo{
+   margin: 20px;
+   
+}
+.aboutMePic{
+    
+    width: 15em;
+    height: 15em;
+    float: left;
+}
+.aboutMeImg{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;  
+}
+.aboutMeText{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+    line-height: 2;
+   color: #777777;
+}
+/* About ME End */
+/* footer Start */
+.footer {
+    position: fixed; 
+    bottom:0;
+    width: 100%;
+    color: white;
+    background: #666666;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: #4aaaa5;
+ }
+/* Footer end */
+ /* contact section  */
+ input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[id = message],select{
+    height: 15em;
+}
+
+input[type=submit] {
+    
+    background-color:#4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contactInfo{
+    width: 95%;
+    margin: auto;
+    color: #777777;
+}
+input[type=submit]:hover {
+    background-color: #4CAF50;
+}
+.contact{
+
+    width: 960px;
+    background: white;
+    margin: auto;
+    margin-top: 5em;
+    height: 40em;
+    border-radius: 2%;
+}
+/* Contact End */
+/* Portfolio Start */
+.portfolio{
+    width: 960px;
+    background: white;
+    margin: auto;
+    margin-top: 2em;
+    height: 47em;
+    border-radius: 2%;
+}
+
+.title{
+    color:  #4aaaa5;
+    border-bottom: 5px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-style: solid;
+    border-color: #cccccc;
+    margin: 1em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+    padding: 1em;
+}
+.container {
+    position: relative;
+    width: 250px;
+   height: 250px;
+   
+   margin: 2em;
+   display: inline-block;  
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+   background-color: black;
+    -webkit-filter: none;
+    filter: none;
+  }
+  
+  .container:hover .overlay {
+    opacity: .5;
+  }
+  .container:hover .image{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  /* Portfolio End */
