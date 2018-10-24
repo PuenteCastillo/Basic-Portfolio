@@ -41,7 +41,7 @@ header{
     background-color: #4aaaa5;
     text-align: center;
     width: 225px;
-    height: 5.3em;
+    height: 5.35em;
     padding: auto;
     float: left;
 }
@@ -103,9 +103,17 @@ header{
     border-radius: 4px;
     box-sizing: border-box;
 }
-input[id = message],select{
-    height: 15em;
+
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
+
 
 input[type=submit] {
     
@@ -123,7 +131,7 @@ input[type=submit] {
     color: #777777;
 }
 input[type=submit]:hover {
-    background-color: #4CAF50;
+    background-color: #34D7FF;
 }
 .contact{
 
