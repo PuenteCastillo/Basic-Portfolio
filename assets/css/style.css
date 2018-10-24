@@ -1,7 +1,8 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url("http://wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg");
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rN0W64K4ipau8gxv/light-gray-background-soft-fifteen-shades-of-grey-smooth-background-with-the-addition-of-a-bit-of-noise_be-2qbqqkl_thumbnail-full01.png");
+    background-size: cover;
 }
 /* header info  */
 .nav{
@@ -20,6 +21,8 @@ a{
 }
 
 header{
+    position: fixed; 
+    top:0;
     width: 100%;
     background: #ffffff;
     height: 5em;
@@ -51,6 +54,7 @@ header{
     margin-top: 5em;
     height: 40em;
     border-radius: 2%;
+    margin-top: 8em;
     
 }
 .aboutMeInfo{
@@ -67,11 +71,12 @@ header{
     width: 90%;
     height: 90%;
     border-radius: 50%;  
+    object-fit: cover;
 }
 .aboutMeText{
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 15px;
-    line-height: 2;
+    line-height: 2.5;
    color: #777777;
 }
 /* About ME End */
@@ -128,6 +133,7 @@ input[type=submit]:hover {
     margin-top: 5em;
     height: 40em;
     border-radius: 2%;
+    margin-top: 8em;
 }
 /* Contact End */
 /* Portfolio Start */
@@ -138,6 +144,8 @@ input[type=submit]:hover {
     margin-top: 2em;
     height: 47em;
     border-radius: 2%;
+    margin-bottom: 5em;
+    margin-top: 8em;
 }
 
 .title{
